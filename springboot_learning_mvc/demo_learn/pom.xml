@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.3.4.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <!--
+        父项目：spring-boot-starter-parent ->spring-boot-dependencies(真正管理Spring Boot应用里面的所有依赖版本)
+        Spring Boot的版本仲裁中心；（SpringBoot自动仲裁）
+        以后我们导入依赖默认是不需要写版本；
+        （没有在dependencies里面管理的依赖自然需要声明版本号）
+    -->
+    <!--  主要用来唯一标识一个项目或者一组项目，它通常是java包名的全称-->
+    <groupId>com.example</groupId>
+    <!--  artifactId用来标识同一groupId下不同的项目-->
+    <artifactId>demo_learn</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>demo_learn</name>
+    <description>Demo project for Spring Boot</description>
+
+    <properties>
+        <java.version>11</java.version>
+    </properties>
+    <!--
+            starter :启动器，springboot将所有的功能场景都抽取出来，做成一个个的starters（启动器），
+            只需要在项目里面引入这些starter，相关场景的所有依赖都会导入进来。要用什么功能就导入什么场景的启动器
+            spring-boot-starter:spring-boot场景启动器
+            引入web模块的依赖
+    -->
+    <dependencies>
+<!--        spring-boot-starter：spring-boot场景启动器；帮我们导入了web模块正常运行所依赖的组件；-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <!--
+            热部署
+            需要先设置idea自动编译 settings->compiler->build project automatically
+            再通过快捷键：shift+ctrl+a，打开全局搜索，搜索registy，勾选compiler.automake.allow.when.app.running
+            调整compile.document.save.trigger.delay:它主要是针对静态文件如JS CSS的更新，将延迟时间减少
+        -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.junit.vintage</groupId>
+                    <artifactId>junit-vintage-engine</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+<!--        &lt;!&ndash;Spring Boot Actuator依赖&ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-actuator</artifactId>-->
+<!--        </dependency>-->
+    </dependencies>
+
+    <!--主要用于编译设置-->
+    <build>
+        <plugins>
+
+            <!-- 这个插件，可以将应用打包成一个可执行的jar包-->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

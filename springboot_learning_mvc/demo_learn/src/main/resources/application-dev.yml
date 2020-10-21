@@ -1,0 +1,11 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /dev
+#默认只开启了health和info，设置为*，则包含所有的web入口端点
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'
+#    management.endpoints.web.exposure.include=*

@@ -1,0 +1,26 @@
+spring:
+  profiles:
+    active: dev
+#    我们的项目会经历很多的阶段(开发->测试->上线)，每个阶段的配置也会不同，
+#    例如：端口、上下文根、数据库等，那么这个时候为了方便在不同的环境之间切换
+#    SpringBoot提供了多环境配置
+
+#SpringBoot读取配置文件的时候不会读取后缀为-prov和-dev的还是会读取application.yml文件
+#所以要在application.yml文件中指出要运行的配置环境
+
+#假设一个项目在同一位置同时存在application.properties和application.yml文件，
+#且其中都含有相同的某个key,但value不同，如：
+#application.properties中：server.port=8001，
+#application.yml中：server.port=8888。
+#问题：springboot是否都加载这两个配置文件？如果两个文件有相同的key，取哪一个文件的value？
+#答： 都加载，且按properties→yml的顺序加载。
+#即先从application.properties文件中查找值，一旦找到yml文件中配置失效，如果找不到再从application.yml中查找。
+#故上面的例子port=8001
+
+#springboot 启动会扫描以下位置的application.properties或者application.yml文件作为Spring boot的默认配置文件
+#–file:./config/
+#–file:./
+#–classpath:/config/
+#–classpath:/
+#优先级由高到底，高优先级的配置会覆盖低优先级的配置
+#  如果高优先级中配置文件属性与低优先级配置文件不冲突的属性，则会共同存在—互补配置。

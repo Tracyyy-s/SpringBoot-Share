@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d956717b-b219-4131-abaf-98e98d07ac72" name="默认更改列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="FxmlFile" />
+        <option value="spring-beans.schema" />
+        <option value="JavaFXApplication" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="E:\meaven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
+  <component name="ProjectId" id="1ig7DjfZE7JhtI8Jqr3ZRu7JS9k" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="JUnit.SpringBoot01LoggingApplicationTests.contextLoads">
+    <configuration name="SpringBoot01LoggingApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-01-logging" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guigu.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.guigu.springboot" />
+      <option name="MAIN_CLASS_NAME" value="com.guigu.springboot.SpringBoot01LoggingApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot01LoggingApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-01-logging" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guigu.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.guigu.springboot" />
+      <option name="MAIN_CLASS_NAME" value="com.guigu.springboot.SpringBoot01LoggingApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot01LoggingApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-01-logging" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guigu.springboot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.guigu.springboot" />
+      <option name="MAIN_CLASS_NAME" value="com.guigu.springboot.SpringBoot01LoggingApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBoot01LoggingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-01-logging" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.guigu.springboot.SpringBoot01LoggingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SpringBoot01LoggingApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.SpringBoot01LoggingApplicationTests" />
+        <item itemvalue="JUnit.SpringBoot01LoggingApplicationTests.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d956717b-b219-4131-abaf-98e98d07ac72" name="默认更改列表" comment="" />
+      <created>1602317264018</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602317264018</updated>
+      <workItem from="1602317276030" duration="5714000" />
+      <workItem from="1602381719561" duration="263000" />
+      <workItem from="1602381998762" duration="1324000" />
+      <workItem from="1602390961359" duration="393000" />
+      <workItem from="1602391374289" duration="13055000" />
+      <workItem from="1602425349880" duration="7210000" />
+      <workItem from="1602459634514" duration="9766000" />
+      <workItem from="1602472358763" duration="1364000" />
+      <workItem from="1602476383881" duration="1195000" />
+      <workItem from="1602492099641" duration="5395000" />
+      <workItem from="1602980207565" duration="5274000" />
+      <workItem from="1603027209233" duration="5455000" />
+      <workItem from="1603069384477" duration="82000" />
+      <workItem from="1603069565256" duration="124000" />
+      <workItem from="1603069702895" duration="40000" />
+      <workItem from="1603072304944" duration="16000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="770" y="234" key="#Inspections" timestamp="1602472475566">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="770" y="234" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1602472475566" />
+    <state x="552" y="181" key="#Properties" timestamp="1602431399972">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#Properties/0.0.1920.1040@0.0.1920.1040" timestamp="1602431399972" />
+    <state x="753" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1602470688981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="753" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1602470688981" />
+    <state x="552" y="181" width="816" height="724" key="#意向" timestamp="1602460781997">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" width="816" height="724" key="#意向/0.0.1920.1040@0.0.1920.1040" timestamp="1602460781997" />
+    <state x="565" y="183" key="#所有在_spring-boot-01-logging" timestamp="1602382107158">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="565" y="183" key="#所有在_spring-boot-01-logging/0.0.1920.1040@0.0.1920.1040" timestamp="1602382107158" />
+    <state x="552" y="181" key="#项目结构" timestamp="1602434095756">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#项目结构/0.0.1920.1040@0.0.1920.1040" timestamp="1602434095756" />
+    <state x="740" y="278" key="FileChooserDialogImpl" timestamp="1603069709447">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603069709447" />
+    <state width="1877" height="243" key="GridCell.Tab.0.bottom" timestamp="1603034022625">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603034022625" />
+    <state width="1877" height="243" key="GridCell.Tab.0.center" timestamp="1603034022624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="243" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603034022624" />
+    <state width="1877" height="243" key="GridCell.Tab.0.left" timestamp="1603034022624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="243" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603034022624" />
+    <state width="1877" height="243" key="GridCell.Tab.0.right" timestamp="1603034022625">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="243" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603034022625" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1602476057083">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602476057083" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1602476057082">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602476057082" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1602476057082">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602476057082" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1602476057083">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602476057083" />
+    <state x="490" y="178" key="Maven.ArtifactSearchDialog" timestamp="1602476267728">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="490" y="178" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602476267728" />
+    <state x="1012" y="299" key="NewModule_or_Project.wizard" timestamp="1602462054535">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1012" y="299" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1602462054535" />
+    <state x="454" y="126" key="SettingsEditor" timestamp="1602476990770">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="454" y="126" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1602476990770" />
+    <state x="209" y="134" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1602462910709">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="209" y="134" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602462910709" />
+    <state x="670" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1602391378001">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="670" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602391378001" />
+    <state x="334" y="227" key="new project wizard" timestamp="1603069740643">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="227" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1603069740643" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1602393300517">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602393300517" />
+  </component>
+</project>
